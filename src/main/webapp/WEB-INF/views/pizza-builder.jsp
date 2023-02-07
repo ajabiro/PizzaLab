@@ -18,18 +18,18 @@
     		 </select>
 		</p>
 		<p>
-			<label for="toppings-input">How many Toppings? </label>
+			<label for="toppings-input">How Many Toppings? </label>
 			<input name="toppings" id="name-input" />
 		</p>
-		<label for="glutenfree-input">Gluten-Free Crust? </label>
+		<label for="glutenfree-input">Gluten-Free Crust? (additional $2) </label>
 		<input type="checkbox" id="name-input" name="glutenfree" value="yes">
 		<p>
-			<label for="instructions-input">Special Instructions </label>
+			<label for="instructions-input">Special Instructions (optional): </label>
 			<input name="instructions" id="name-input" />
 		</p>
 	
 		<p>
-			<button type="submit"> Submit</button>
+		 <button type="submit">Calculate Price</button> 
 		</p>	
 		</form>
 	

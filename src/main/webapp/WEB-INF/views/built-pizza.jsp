@@ -10,12 +10,14 @@
 	<h1>Your Custom Pizza</h1>
 	<p> Size: ${ size } </p>
 	<p> Toppings: ${ toppings } </p>
-	<p> Gluten-Free?: ${ glutenfree} </p>
+	<p> Gluten-Free? ${ glutenfree} </p>
 	<p> Special Instructions: ${ instructions } </p>
-
+	<p> Price : $ ${price}</p>
 	
 	
 	<a href="/"> Go Back to Home Page </a>
+	<p>
 	<a href="/pizza-builder"> Build Another Pizza </a>
+	</p>
 </body>
 </html>

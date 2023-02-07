@@ -8,7 +8,9 @@
 </head>
 <body>
 	 <h1>  Specialty Pizza ${ name }!</h1>
-	 <h2>  Name ${ name }!</h2>
-  	 <h2> Price ${ price}!</h2>
+	 <h2>  Name: ${ name }</h2>
+  	 <h2> Price: ${ price}</h2>
+  	 
+  	 <a href="/"> Go Back to Home Page </a>
 </body>
 </html>
