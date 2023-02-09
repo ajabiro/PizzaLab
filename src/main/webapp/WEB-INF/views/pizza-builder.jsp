@@ -1,5 +1,7 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -18,8 +20,17 @@
     		 </select>
 		</p>
 		<p>
+		
 			<label for="toppings-input">How Many Toppings? </label>
 			<input name="toppings" id="name-input" />
+		
+			<c:forEach var="emp" items="${empList}">
+		
+	
+			
+			</c:forEach>
+	
+	
 		</p>
 		<label for="glutenfree-input">Gluten-Free Crust? (additional $2) </label>
 		<input type="checkbox" id="name-input" name="glutenfree" value="yes">
@@ -30,6 +41,8 @@
 	
 		<p>
 		 <button type="submit">Calculate Price</button> 
+	
+	
 		</p>	
 		</form>
 	
